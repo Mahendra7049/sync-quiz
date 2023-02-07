@@ -1,0 +1,119 @@
+body
+{
+	font-family: 'Macondo', cursive;
+	background-image: url("qui.jpg");
+ 	background-repeat: no-repeat;
+    background-size: 1600px 800px   
+}
+#heading
+{     position: absolute;
+	     left:22%;
+    	width: 1000px;
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 3px solid black;
+        border-radius: 29px;
+		box-shadow: 0 0 8px 3px #fff;
+        margin-left: 4%;
+}
+#text
+{
+	 text-align: center;
+}
+#quiz
+{
+	    height: 330px;
+    	width: 60%;
+    	position: absolute;
+    	left:8%;
+    	top: 30%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+        margin-left: 20%;
+
+		border: 1px solid #00038c;
+		box-shadow: 0 0 8px 3px #fff;
+	
+}
+#question
+{
+   padding: 20px;
+   font-size: 22px;
+   background: #08038C;
+   border-radius: 10px;
+   margin: 10px 0 10px 0;
+   color: #f6f6f6;
+}
+.option{
+	width: 470px;
+	display: inline-block;
+	padding: 10px 0 10px 0;
+	background: rgba(255,255,255,0.5);
+	margin: 10px 0 10px 10px;
+	 border: 2px solid #eb68db; 
+	border-radius: 5px;
+}
+
+.option:hover{
+	background: #08038C;
+	color: #f6f6f6;	
+}
+#next
+{
+	font-family: 'Macondo', cursive; 
+	background-color:  #4CAF50;
+	width:10%;
+	height: 4%px;
+	border: 1px solid #00038c;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;;
+	float: right;
+	 padding: 10px 10px;
+	
+}
+#next:hover{
+	background-color:yellow
+}
+#quit
+{
+	position: absolute;
+	 right:    0;
+bottom:   0;
+margin-bottom: 6%;
+border: 3px solid black;
+font-family: 'Macondo', cursive; 
+	background-color: #4CAF50;
+
+	border: 1px solid #00038c;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor: pointer;;
+	float: right;
+	 padding: 5px 5px;
+     margin-right: 8%;
+     height: 50px;
+     width: 80px;
+     /* padding: 25px; */
+     
+	
+}
+#quit:hover{
+		background-color:rgb(214, 40, 57)
+}
+#result
+{
+	font-size:100px;
+    color: #000;
+	 text-align: center;
+    	 height: 100px;
+    	width: 60%;
+    	position: absolute;
+    	left:30%;
+    	top: 45%;
+    	transform: translateX(-50) translateY(-50);
+		background: rgba(255,255,255,0.5);
+		padding: 20px;
+		border: 1px solid #00038c;
+        border-radius: 30px;
+		box-shadow: 0 0 8px 3px #000;
+}
